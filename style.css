@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container_card {
+    display: flex;
+    gap: 50px;
+    height: 100vh;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+@media(max-width:768px) {
+    .container_card {
+        justify-content: center;
+    }
+}
+
+section.card {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    border: 3px solid #025bff;
+    padding: 15px;
+    border-radius: 10px;
+    background: #daddff4a;
+    min-width: 270px;
+}
+
+h2.nombre {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.descripcion{
+    color: black;
+    margin: 10px 0px;
+    font-family: system-ui;
+}
+
+samp.edad {
+    font-size: 16px;
+    color: #0300d5;
+}
+
+span.nacimiento {
+    font-size: 16px;
+    color: #0300d5;
+}
+
